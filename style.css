@@ -1,0 +1,70 @@
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: #C19AB7;
+    color: #170A1C;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #9C95DC;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .gallery {
+    display: grid;
+    gap: 1.5rem;
+    padding: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    flex: 1;
+  }
+  
+  .card {
+    text-decoration: none;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    border: 3px solid #0B7189;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+  }
+  
+  .card p {
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: #228CDB;
+    background: var(#C19AB7);
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #9C95DC;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+  }
+  
