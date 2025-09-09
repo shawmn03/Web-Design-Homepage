@@ -5,7 +5,7 @@
   }
   
   body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: "Courier New", Courier, monospace;
     background: #C19AB7;
     color: #170A1C;
     display: flex;
@@ -69,11 +69,5 @@
     background: #C19AB7;
     font-weight: bold;
   }
-  
-  footer {
-    background-color: #9C95DC;
-    text-align: center;
-    padding: 1rem;
-    color: white;
-  }
+
   
